@@ -1,0 +1,54 @@
+﻿@model List<ProductVM>
+
+@{
+    ViewData["Title"] = "Ürün Yönetimi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h1>Ürün Yönetimi</h1>
+<br />
+
+<button class="btn" onclick="window.location = '@Url.Action("Add","Product")'">Ürün Ekle</button>
+
+<br />
+<br />
+<br />
+
+<table id="table">
+    <thead>
+        <tr>
+            <th>Resim</th>
+            <th>Ürün Türü</th>
+            <th>Ad</th>
+            <th>Stok Adeti</th>
+            <th>Fiyat</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.ImagePath" class="maimg" />
+                </td>
+                <td>@item.ProductTypeName</td>
+                <td>@item.Name</td>
+                <td>@item.StockCount Adet</td>
+                <td>@item.Price TL</td>
+                <td style="display:flex;">
+                    <button class="btn" onclick="addToBasket('@item.ID')">Sepete Ekle</button>
+                    <button class="btn" onclick="deletee('@item.ID')">Sil</button>
+                    <button class="btn" onclick="window.location = '@Url.Action("Edit", "Product", new { Id = item.ID })'">Düzenle</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<br />
+<br />
+
+<script src="~/js/managament.js"></script>

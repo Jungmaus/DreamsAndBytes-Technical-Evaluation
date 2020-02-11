@@ -1,0 +1,8 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\obj\Debug\netcoreapp3.1\DreamsAndBytes.Enums.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\obj\Debug\netcoreapp3.1\DreamsAndBytes.Enums.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\obj\Debug\netcoreapp3.1\DreamsAndBytes.Enums.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\obj\Debug\netcoreapp3.1\DreamsAndBytes.Enums.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Enums\obj\Debug\netcoreapp3.1\DreamsAndBytes.Enums.csprojAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\bin\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\bin\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\bin\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\obj\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\obj\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\obj\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\obj\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Middlewares\obj\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.csprojAssemblyReference.cache

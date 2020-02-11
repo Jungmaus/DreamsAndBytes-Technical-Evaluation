@@ -1,0 +1,58 @@
+﻿@model List<BasketVM>
+
+@{
+    ViewData["Title"] = "Sepet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h1>Sepet</h1>
+<br />
+<br />
+
+
+
+<table id="table">
+    <thead>
+        <tr>
+            <th>Resim</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Fiyatı</th>
+            <th>Adet</th>
+            <th>Toplam Tutar</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.Product.ImagePath" class="maimg" />
+                </td>
+                <td>@item.Product.Name</td>
+                <td>@item.Product.Price TL</td>
+                <td>@item.Count Adet</td>
+                <td>@(item.Count * item.Product.Price) TL</td>
+                <td>                    
+                    <button class="btn" onclick="window.location = '@Url.Action("RemoveProductFromBasket", "Basket", new { basketId = item.ID })'">Sepetten Çıkar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+
+<button class="btn" style="float:right;margin-right:2%;" onclick="window.location = '@Url.Action("Confirm","Basket")'">Siparişi Tamamla</button>
+
+
+
+
+
+
+
+
+<br />
+<br />

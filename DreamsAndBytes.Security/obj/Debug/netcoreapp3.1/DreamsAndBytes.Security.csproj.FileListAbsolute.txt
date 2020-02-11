@@ -1,0 +1,8 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\bin\Debug\netcoreapp3.1\DreamsAndBytes.Security.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\bin\Debug\netcoreapp3.1\DreamsAndBytes.Security.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\bin\Debug\netcoreapp3.1\DreamsAndBytes.Security.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\obj\Debug\netcoreapp3.1\DreamsAndBytes.Security.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\obj\Debug\netcoreapp3.1\DreamsAndBytes.Security.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\obj\Debug\netcoreapp3.1\DreamsAndBytes.Security.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\obj\Debug\netcoreapp3.1\DreamsAndBytes.Security.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Security\obj\Debug\netcoreapp3.1\DreamsAndBytes.Security.csprojAssemblyReference.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DreamsAndBytes.MessageBuilder/1.0.0": {
+        "runtime": {
+          "DreamsAndBytes.MessageBuilder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DreamsAndBytes.MessageBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

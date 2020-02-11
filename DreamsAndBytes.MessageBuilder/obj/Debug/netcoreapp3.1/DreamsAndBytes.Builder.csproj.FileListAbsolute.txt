@@ -1,0 +1,13 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Builder.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Builder.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Builder.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.csprojAssemblyReference.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.Builder.csproj.CopyComplete

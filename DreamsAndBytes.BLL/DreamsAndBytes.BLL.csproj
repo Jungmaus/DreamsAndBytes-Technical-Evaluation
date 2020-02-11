@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamsAndBytes.Constants\DreamsAndBytes.Constants.csproj" />
+    <ProjectReference Include="..\DreamsAndBytes.DAL\DreamsAndBytes.DAL.csproj" />
+    <ProjectReference Include="..\DreamsAndBytes.Entity\DreamsAndBytes.Entity.csproj" />
+    <ProjectReference Include="..\DreamsAndBytes.MessageBuilder\DreamsAndBytes.Builder.csproj" />
+  </ItemGroup>
+
+</Project>

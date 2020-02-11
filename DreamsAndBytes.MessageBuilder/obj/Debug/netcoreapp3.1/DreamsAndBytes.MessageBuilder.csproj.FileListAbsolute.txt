@@ -1,0 +1,7 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\bin\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.MessageBuilder\obj\Debug\netcoreapp3.1\DreamsAndBytes.MessageBuilder.pdb

@@ -1,0 +1,25 @@
+﻿@model List<ProductVM>
+
+@{
+    ViewData["Title"] = "Ürün Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@foreach (var item in Model)
+{
+<div class="product">
+    <div class="image">
+        <img src="@item.ImagePath" />
+    </div>
+    <div class="detail">
+        <label class="title">@item.Name</label>
+        <br />
+        <label class="price">@item.Price TL</label>
+    </div>
+    <div class="purchase">
+        <input type="number" value="1"/> 
+        <button class="btn">Sepete Ekle</button>
+    </div>
+</div>
+}

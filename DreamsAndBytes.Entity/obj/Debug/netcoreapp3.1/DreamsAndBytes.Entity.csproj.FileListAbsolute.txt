@@ -1,0 +1,13 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.runtimeconfig.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.runtimeconfig.dev.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Entity.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\bin\Debug\netcoreapp3.1\DreamsAndBytes.Enums.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.csprojAssemblyReference.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.csproj.CopyComplete
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Entity\obj\Debug\netcoreapp3.1\DreamsAndBytes.Entity.pdb

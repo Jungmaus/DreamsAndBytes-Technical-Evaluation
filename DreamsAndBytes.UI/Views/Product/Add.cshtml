@@ -1,0 +1,69 @@
+﻿@model AddProductVM
+
+@{
+    ViewData["Title"] = "Ürün Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+
+<h1>Ürün Ekle</h1>
+
+<br />
+<br />
+
+@using (Html.BeginForm("Add", "Product", FormMethod.Post, new { enctype="multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <label>Ürün Resmi: </label> @Html.TextBoxFor(x => x.Image, new { @type = "file" })
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Image)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Ürün Adı: </label> @Html.TextBoxFor(x => x.Name)
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Name)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Ürün Türü: </label> @Html.DropDownListFor(x => x.ProductTypeId, Model.ProductTypeSelectList, "Seçiniz")
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.ProductTypeId)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Stok Adedi: </label> @Html.TextBoxFor(x => x.StockCount, new { @type = "number" })
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.StockCount)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Fiyat: </label> @Html.TextBoxFor(x => x.Price, new { @type = "number",@step=".01" })
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Price)</label>
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit">Kaydet</button>
+    </div>
+
+    if (ViewBag.OperationResult != null && ViewBag.OperationResult == OperationResultEnum.Success)
+    {
+        <label style="color:green;"><br /><b>Ürün başarıyla eklendi !</b></label>
+    }
+    else if (ViewBag.OperationResult != null && ViewBag.OperationResult == OperationResultEnum.Failure)
+    {
+        <label style="color:red;"><br /><b>Ürün eklenirken bir sorun oluştu !</b></label>
+    }
+
+
+}
+
+
+
+<br />
+<br />
+

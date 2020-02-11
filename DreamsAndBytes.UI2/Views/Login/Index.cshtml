@@ -1,0 +1,30 @@
+﻿@model LoginVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <label>Kullanıcı Adı: </label> @Html.TextBoxFor(x => x.Username)
+        <br />
+        <label>Şifre: </label> @Html.PasswordFor(x => x.Password)
+        <br />
+        <button type="submit">Giriş Yap</button>
+        <br />
+        <label style="color:red;">
+            @Html.ValidationSummary()
+        </label>
+    }
+</body>
+</html>

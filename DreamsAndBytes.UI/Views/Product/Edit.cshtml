@@ -1,0 +1,76 @@
+﻿@model EditProductVM
+
+@{
+    ViewData["Title"] = "Ürün Düzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<br />
+<h1>Ürün Düzenle</h1>
+<br />
+<br />
+
+
+
+@using (Html.BeginForm("Edit", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(x=>x.ID)
+    @Html.HiddenFor(x=>x.ImagePath)
+    <div class="row">
+        <img src="@Model.ImagePath" class="maimg" style="width:auto;margin-left:1.5%;" />
+    </div>
+    <div class="row">
+        <label>Ürün Resmi: </label> @Html.TextBoxFor(x => x.Image, new { @type = "file" })
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Image)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Ürün Adı: </label> @Html.TextBoxFor(x => x.Name)
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Name)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Ürün Türü: </label> @Html.DropDownListFor(x => x.ProductTypeId, Model.ProductTypeSelectList, "Seçiniz")
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.ProductTypeId)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Stok Adedi: </label> @Html.TextBoxFor(x => x.StockCount, new { @type = "number" })
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.StockCount)</label>
+        </div>
+    </div>
+    <div class="row">
+        <label>Fiyat: </label> @Html.TextBoxFor(x => x.Price)
+        <div class="validationRow">
+            <label>@Html.ValidationMessageFor(x => x.Price)</label>
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit">Güncelle</button>
+    </div>
+
+    if (ViewBag.OperationResult != null && ViewBag.OperationResult == OperationResultEnum.Success)
+    {
+        <label style="color:green;"><br /><b>Ürün başarıyla güncellendi !</b></label>
+    }
+    else if (ViewBag.OperationResult != null && ViewBag.OperationResult == OperationResultEnum.Failure)
+    {
+        <label style="color:red;"><br /><b>Ürün güncellenirken bir sorun oluştu !</b></label>
+    }
+
+
+}
+
+
+
+
+
+<br />
+<br />

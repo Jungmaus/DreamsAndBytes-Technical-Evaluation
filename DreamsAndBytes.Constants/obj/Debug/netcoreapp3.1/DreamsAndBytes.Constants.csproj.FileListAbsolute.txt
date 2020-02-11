@@ -1,0 +1,8 @@
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\bin\Debug\netcoreapp3.1\DreamsAndBytes.Constants.deps.json
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\bin\Debug\netcoreapp3.1\DreamsAndBytes.Constants.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\bin\Debug\netcoreapp3.1\DreamsAndBytes.Constants.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\obj\Debug\netcoreapp3.1\DreamsAndBytes.Constants.AssemblyInfoInputs.cache
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\obj\Debug\netcoreapp3.1\DreamsAndBytes.Constants.AssemblyInfo.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\obj\Debug\netcoreapp3.1\DreamsAndBytes.Constants.dll
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\obj\Debug\netcoreapp3.1\DreamsAndBytes.Constants.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.Constants\obj\Debug\netcoreapp3.1\DreamsAndBytes.Constants.csprojAssemblyReference.cache
