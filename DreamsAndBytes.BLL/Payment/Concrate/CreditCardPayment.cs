@@ -2,6 +2,7 @@
 using DreamsAndBytes.Builder;
 using DreamsAndBytes.Constants;
 using DreamsAndBytes.DAL;
+using DreamsAndBytes.DAL.Abstract;
 using DreamsAndBytes.DAL.Concrate;
 using DreamsAndBytes.Entity.Entities.Basket;
 using DreamsAndBytes.Entity.Entities.Order;
@@ -15,9 +16,9 @@ namespace DreamsAndBytes.BLL.Payment.Concrate
 {
     public class CreditCardPayment : IPayment
     {
-        private OrderService _orderService;
+        private IOrderService _orderService;
 
-        public CreditCardPayment(OrderService orderService)
+        public CreditCardPayment(IOrderService orderService)
         {
             this._orderService = orderService;
         }

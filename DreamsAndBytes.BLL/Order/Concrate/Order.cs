@@ -12,17 +12,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DreamsAndBytes.DAL.Concrate;
+using DreamsAndBytes.DAL.Abstract;
 
 namespace DreamsAndBytes.BLL.Order.Concrate
 {
     public class Order : IOrder
     {
-        private OrderService _orderService;
-        private OrderDetailService _orderDetailService;
-        private BasketService _basketService;
-        private ProductService _productService;
+        private IOrderService _orderService;
+        private IOrderDetailService _orderDetailService;
+        private IBasketService _basketService;
+        private IProductService _productService;
 
-        public Order(OrderService orderService, OrderDetailService orderDetailService, BasketService basketService, ProductService productService)
+        public Order(IOrderService orderService, IOrderDetailService orderDetailService, IBasketService basketService, IProductService productService)
         {
             this._orderService = orderService;
             this._basketService = basketService;

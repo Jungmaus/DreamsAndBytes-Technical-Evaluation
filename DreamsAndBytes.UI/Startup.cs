@@ -56,7 +56,8 @@ namespace DreamsAndBytes.UI
             services.AddScoped<IRepository<ProductTypeEntity>, Repository<ProductTypeEntity>>();
             services.AddScoped<IRepository<UserDetailEntity>, Repository<UserDetailEntity>>();
             services.AddScoped<IRepository<UserEntity>, Repository<UserEntity>>();
-                     
+
+           
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IOrderDetailService, OrderDetailService>();
             services.AddScoped<IOrderService, OrderService>();
@@ -66,12 +67,12 @@ namespace DreamsAndBytes.UI
             services.AddScoped<IUserService, UserService>();
                      
             services.AddScoped<IHash, SHA512Hash>();
-            services.AddScoped<ICrypto, AESCrypto>();
+            services.AddScoped<ICrypto, AESCrypto>();            
 
             services.AddScoped<IPayment, CreditCardPayment>();
             services.AddScoped<IPayment, KissPayment>();
 
-            services.AddTransient<PaymentServiceResolver>(serviceProvider => key =>
+            services.AddScoped<PaymentServiceResolver>(serviceProvider => key =>
             {
                 switch (key)
                 {
@@ -83,7 +84,6 @@ namespace DreamsAndBytes.UI
                         throw new KeyNotFoundException(); 
                 }
             });
-
 
             services.AddScoped<IOrder, Order>();
 

@@ -13,7 +13,9 @@ namespace DreamsAndBytes.UI.Profiles
         public ProductProfile()
         {
             CreateMap<ProductEntity, ProductVM>();
-            CreateMap<ProductEntity, EditProductVM>().ReverseMap();
+            CreateMap<EditProductVM, ProductEntity>()
+                .ForMember(x => x.AddDate, opt => opt.MapFrom(src => src.add))
+                .ReverseMap();
             CreateMap<AddProductVM, ProductEntity>()
                 .ForMember(x => x.IsDeleted, opt => opt.MapFrom(src => false))
                 .ForMember(x => x.AddDate, opt => opt.MapFrom(src => DateTime.Now));   
