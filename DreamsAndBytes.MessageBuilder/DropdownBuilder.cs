@@ -1,4 +1,5 @@
 ﻿using DreamsAndBytes.Entity.Entities.Product;
+using DreamsAndBytes.Enums;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
@@ -25,5 +26,6 @@ namespace DreamsAndBytes.Builder
             });
             return selectListItems;
         }
+
     }
 }

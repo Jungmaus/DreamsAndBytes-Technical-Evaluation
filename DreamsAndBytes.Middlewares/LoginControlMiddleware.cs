@@ -19,14 +19,14 @@ namespace DreamsAndBytes.Middlewares
 
         public async Task Invoke(HttpContext httpContext)
         {
-            var nameIdentifierClaim = httpContext.User.Claims.ToList().FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
-            if (nameIdentifierClaim != null && nameIdentifierClaim.Value != null && nameIdentifierClaim.Value != string.Empty)
+            var nameIdentifierClaim = httpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
+            if ((httpContext.Request.Path == "/Login/Index" || httpContext.Request.Path == "/Login") || (nameIdentifierClaim != null && nameIdentifierClaim.Value != null && nameIdentifierClaim.Value != string.Empty))
             {
-                httpContext.Response.Redirect("/Login/Index");
+                await _next.Invoke(httpContext);
             }
             else
             {
-                await _next.Invoke(httpContext);
+                httpContext.Response.Redirect("/Login/Index");
             }
         }
     }

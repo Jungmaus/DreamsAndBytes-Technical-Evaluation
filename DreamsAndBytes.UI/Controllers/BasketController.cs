@@ -112,6 +112,8 @@ namespace DreamsAndBytes.UI.Controllers
         {
             // Her şey hazır. Sipariş numarası falan gösterilen sayfa burası.
 
+            ViewBag.orderId = orderId;
+
             return View();
         }        
 

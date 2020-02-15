@@ -127,9 +127,9 @@ namespace DreamsAndBytes.UI.Controllers
                 if (model.Image != null && model.Image.Length > 0)
                 {
 
-                    if (System.IO.File.Exists(_env.WebRootPath + product.ImagePath))
+                    if (System.IO.File.Exists(string.Concat(_env.WebRootPath, product.ImagePath)))
                     {
-                        System.IO.File.Delete(_env.WebRootPath + product.ImagePath);
+                        System.IO.File.Delete(string.Concat(_env.WebRootPath, product.ImagePath));
                     }
 
                     string guid = Guid.NewGuid().ToString();

@@ -169,3 +169,5 @@ C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\obj\Debug
 C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Index.cshtml.g.cs
 C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\bin\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.dll
 C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\bin\Debug\netcoreapp3.1\DreamsAndBytes.Middlewares.pdb
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\obj\Debug\netcoreapp3.1\Razor\Views\Basket\PaymentDetails.cshtml.g.cs
+C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Complete.cshtml.g.cs

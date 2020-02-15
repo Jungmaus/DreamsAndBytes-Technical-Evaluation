@@ -77,9 +77,13 @@ namespace DreamsAndBytes.UI
                 switch (key)
                 {
                     case PaymentTypeEnum.CreditCard:
-                        return serviceProvider.GetService<CreditCardPayment>();
+                        //return serviceProvider.GetService<CreditCardPayment>();
+                        return new CreditCardPayment(
+                            orderService: serviceProvider.GetService<IOrderService>()
+                        );
                     case PaymentTypeEnum.Kiss:
-                        return serviceProvider.GetService<KissPayment>();
+                        //return serviceProvider.GetService<KissPayment>();
+                        return new KissPayment();
                     default:
                         throw new KeyNotFoundException(); 
                 }

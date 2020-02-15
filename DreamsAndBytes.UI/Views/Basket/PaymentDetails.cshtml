@@ -1,0 +1,59 @@
+﻿@model PaymentVM
+
+
+@{
+    ViewData["Title"] = "PaymentDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h1>Ödeme Yöntemi</h1>
+<br />
+<br />
+
+
+
+
+@using (Html.BeginForm("PaymentDetails", "Basket", FormMethod.Post))
+{
+
+    <div class="row">
+        <label>Ödeme Yöntemi: </label> @Html.DropDownListFor(x => x.PaymentType, Html.GetEnumSelectList(typeof(PaymentTypeEnum)), "Seçiniz")
+    </div>
+    <div class="row" id="CreditCard" style="display:none;">
+        <div class="row">
+            <label>Kart Numarası: </label> <input type="text" />
+        </div>
+        <br />
+        <div class="row">
+            <label>Kart üzerindeki ad: </label> <input type="text" />
+        </div>
+        @* VB. VB. *@
+    </div>
+    <div class="row" id="Kiss" style="display:none;">
+        <h3>Give me a kiss :*</h3>
+    </div>
+
+    <div class="row">
+        <button type="submit">Ödemeyi Tamamla</button>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br />
+<br />
+
+<script src="~/js/paymentDetail.js"></script>

@@ -35,13 +35,20 @@ using DreamsAndBytes.UI.Models.Basket;
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\Views\_ViewImports.cshtml"
+using DreamsAndBytes.UI.Models.Payment;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Samet Şentürk\source\repos\DreamsAndBytes\DreamsAndBytes.UI\Views\_ViewImports.cshtml"
 using DreamsAndBytes.Enums;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e601e5e214e63bcff6dd8c8afa29b531856825ef", @"/Views/Product/Management.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34dff5f5002203cb3f3645dcbaec3f2e67a0672f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a03eba1a0cf49ee03809835b081d1746d61e78db", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Management : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ProductVM>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/js/managament.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -209,7 +216,7 @@ WriteAttributeValue("", 1202, Url.Action("Edit", "Product", new { Id = item.ID }
 #line hidden
 #nullable disable
             WriteLiteral("    </tbody>\r\n</table>\r\n\r\n\r\n<br />\r\n<br />\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e601e5e214e63bcff6dd8c8afa29b531856825ef9561", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e601e5e214e63bcff6dd8c8afa29b531856825ef9777", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
