@@ -228,6 +228,9 @@ namespace DreamsAndBytes.Entity.Migrations
 
             // TRIGGER - trigger_StockUpdate
             migrationBuilder.Sql(@"CREATE TRIGGER trigger_StockUpdate ON Baskets AFTER INSERT, DELETE AS BEGIN DECLARE @event_type varchar(42) IF EXISTS(SELECT * FROM inserted) IF EXISTS(SELECT * FROM deleted) SELECT @event_type = 'update' ELSE SELECT @event_type = 'insert' ELSE IF EXISTS(SELECT * FROM deleted) SELECT @event_type = 'delete' IF @event_type = 'insert' BEGIN UPDATE Products SET StockCount -= (SELECT[Count] FROM inserted) WHERE ID = (SELECT ProductID FROM inserted) END ELSE IF @event_type = 'delete' BEGIN UPDATE Products SET StockCount += (SELECT[Count] FROM deleted) WHERE ID = (SELECT ProductID FROM deleted) END END");
+
+            // Insert User
+            migrationBuilder.Sql(@"INSERT INTO UserDetails (AddDate,IsDeleted,Name,Surname,PhoneNumber) values (CAST(N'2000-06-08T00:00:00.0000000' AS DateTime2), 0, 'Abdulsamet', 'Şentürk', '05350285566') INSERT [dbo].[Users] ([AddDate], [IsDeleted], [Username], [Password], [UserDetailID]) VALUES (CAST(N'2000-06-08T00:00:00.0000000' AS DateTime2), 0, N'i9JhUD9CmdTp42m5RLiDJg==', N'3627909A29C31381A071EC27F7C9CA97726182AED29A7DDD2E54353322CFB30ABB9E3A6DF2AC2C20FE23436311D678564D0C8D305930575F60E2D3D048184D79', 1)");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
