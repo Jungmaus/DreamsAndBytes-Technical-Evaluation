@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using DreamsAndBytes.Core;
 using DreamsAndBytes.DAL.Abstract;
 using DreamsAndBytes.DAL.Concrate;
 using DreamsAndBytes.Entity.Context;
+using DreamsAndBytes.Entity.Entities.Product;
 using DreamsAndBytes.Entity.Entities.User;
 using DreamsAndBytes.Security.Abstract;
 using DreamsAndBytes.Security.Concrate;
@@ -63,14 +65,17 @@ namespace DreamsAndBytes.API
 
             services.AddScoped<IRepository<UserDetailEntity>, Repository<UserDetailEntity>>();
             services.AddScoped<IRepository<UserEntity>, Repository<UserEntity>>();
+            services.AddScoped<IRepository<ProductEntity>, Repository<ProductEntity>>();
 
             services.AddScoped<IUserDetailService, UserDetailService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProductService, ProductService>();
 
             services.AddScoped<IHash, SHA512Hash>();
             services.AddScoped<ICrypto, AESCrypto>();
 
             services.AddControllers();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
